@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import Construct from "@/components/Construct";
 
 export const metadata: Metadata = {
   title: "VinTech Solutions",
@@ -17,12 +18,13 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
-      <Features />
-      <Video />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Contact />
+      <Construct />
+      {/* <Hero /> */}
+      {/* <Features /> */}
+      {/* <Video /> */}
+      {/* <AboutSectionOne /> */}
+      {/* <AboutSectionTwo /> */}
+      {/* <Contact /> */}
     </>
   );
 }
